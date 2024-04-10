@@ -1,0 +1,480 @@
+body{
+  font-family: "Roboto", sans-serif!important;
+  font-weight: 300!important;
+  font-style: normal!important;
+  margin: 0px;
+  background-image: url('image/fura.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.header {
+  height: 200px; /* Висота відома */
+}
+
+.delivery-section {
+  height: calc(100vh - 200px); /* Решта доступної висоти */
+}
+
+
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 30px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-list a:hover {
+    color: #ffd700;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .consultation-btn {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .consultation-btn:hover {
+    background-color: #e6c000;
+  }
+
+  
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: #fff;
+  }
+  
+  .delivery-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-description {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .delivery-consultation-btn {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .delivery-consultation-btn:hover {
+    background-color: #e6c000;
+  }
+  .about-section {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about-image {
+    flex: 0 0 40%;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-text {
+    flex: 0 0 55%;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .possibilities-section {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .possibilities-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .possibilities-list {
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .possibility {
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .possibility i {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .possibility-title {
+    width: 120px;
+    text-wrap: wrap;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .offers-section {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .offers-title {
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .offers-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .offer {
+    background-color: #444;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  .offer-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .offer-details {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .border-ylw{
+    border: #ffd700 solid 1px;
+  }
+
+  .border-blk{
+    border: #000000 solid 1px;
+  }
+
+  .vkl{
+    color: #868686;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: lowercase;
+    margin: 0;
+  }
+
+  .offer-details li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .offer-price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .offer-btn {
+    display: inline-block;
+    background-color: #FFF73C;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .offer-btn-1 {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+
+  .offer-btn:hover {
+    background-color: #fff;
+  }
+
+  .offer-btn-1:hover {
+    color: #fff;
+    background-color: #000;
+  }
+
+  .offers-section .offer {
+    /* Спільні стилі для всіх блоків */
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 1px solid #FFD600;
+    border-radius: 5px;
+  }
+
+  .offer-details li img{
+    padding: 5px 10px 0px 0px;
+    width: 15px;
+  }
+  
+  .offer-basic {
+    /* Стилі для базового пакету */
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 100%);
+  }
+  
+  .offer-premium {
+    color: #000000;
+    /* Стилі для преміум пакету */
+    background-color: #FFD600;
+  }
+  
+  .offer-unlimited {
+    /* Стилі для безлімітного пакету */
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 100%);
+  }
+  
+  .pervuy{
+    gap: 10px;
+    display: flex;
+  }
+  .vtoruy{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-list li a {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .nav-list li a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffd700;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .nav-list li a:hover::before {
+    transform: scaleX(1);
+  }
+
+  .consultation-btn {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease;
+  }
+  
+  .consultation-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e6c000;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    z-index: -1;
+  }
+  
+  .consultation-btn:hover {
+    color: #333;
+  }
+  
+  .consultation-btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  .delivery-section {
+    animation: fadeInUp 1s ease;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .about-content {
+    animation: fadeInLeft 1s ease;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .possibility {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  .offer {
+    animation: fadeInUp 1s ease;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
